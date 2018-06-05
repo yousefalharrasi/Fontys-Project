@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.yas.andr1project.BuildingDetailsActivity">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="my Building Name"
+                android:textSize="18dp"
+                android:id="@+id/building_name"
+                android:textColor="#fff"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="City"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:id="@+id/building_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="my Building City"
+                android:textColor="#fff"
+                android:textSize="18dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="URL"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="my Building URL"
+                android:textSize="18dp"
+                android:id="@+id/building_url"
+                android:textColor="#fff"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Description"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="my Building Description"
+                android:textSize="18dp"
+                android:id="@+id/building_description"
+                android:textColor="#fff"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Address"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="my Building Address"
+                android:textSize="18dp"
+                android:id="@+id/building_address"
+                android:textColor="#fff"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Postal Code"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="my Building Postal Code"
+                android:textSize="18dp"
+                android:id="@+id/building_postalCode"
+                android:textColor="#fff"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+
+
+</RelativeLayout>
